@@ -1,0 +1,32 @@
+.div1{
+	display: box;
+	position: absolute;
+	background-color: #CECECE;
+	height: 125px;
+	width: 30%;	
+
+}
+
+
+.div2{
+	display: box;
+	position: fixed;
+	background-color: #87CEEB;
+	height: 95px;
+	width: 7%;
+	margin-top: 5px;
+	margin-left: 5px;
+
+}
+
+
+.div3{
+	
+	background-color: #FF8E06;
+	display: flex;
+	position: relative;
+	height: 100px;
+	margin-top: 5px;
+	margin-left: 3px;
+
+}
