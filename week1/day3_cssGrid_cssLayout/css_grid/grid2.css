@@ -1,0 +1,151 @@
+
+* {
+  box-sizing:border-box;
+}
+.bodys{
+
+	float: center;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.heade{
+  
+  display:grid;
+  grid-template-columns: 1fr 2fr 1fr ;
+  grid-template-rows: 50% 50%;
+   grid-column-gap:10px;
+  grid-row-gap: 50px;
+  background-color: blue;
+  margin-left: 3px;
+
+}
+
+.foot{
+  
+  display:grid;
+  grid-template-columns: 1fr 2fr 1fr ;
+  grid-template-rows: 50% 50%;
+   grid-column-gap:10px;
+  grid-row-gap: 50px;
+  background-color: orange;
+  margin-left: 3px;
+
+}
+
+
+.milieu{
+
+	margin: 3px;
+
+  display:grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100% 100%;
+   grid-column-gap:5px;
+  grid-row-gap: 3px;
+
+}
+
+.gauch{
+
+  display:grid;
+  grid-row: 1;
+
+}
+
+.violet{
+    display: grid;
+    grid-row: 1;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 90% 90%;
+   grid-column-gap:10px;
+    grid-row-gap: 150px;
+    background-color: red;
+    margin-bottom: 3px;
+    
+
+}
+
+.ver{
+	display: grid;
+    grid-row: 2;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 90% 90%;
+   grid-column-gap:100px;
+    grid-row-gap: 200px;
+    background-color: red;
+    
+    
+}
+
+
+
+.bas{
+	display:grid;
+	grid-column: 1 /span 3;
+
+
+}
+
+.vert{
+	grid-row: 3;
+	display:grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100% 100%;
+   grid-column-gap:150px;
+  grid-row-gap: 100px;
+    background-color: blue;
+
+
+   
+
+}
+
+.rose{
+	 display: grid;
+	grid-row: 3;
+	display:grid;
+  grid-template-columns: 1fr 2fr ;
+  grid-template-rows: 90% 90%;
+   grid-column-gap:50px;
+  grid-row-gap: 100px;
+    background-color: pink;
+    margin-right: 4px;
+   
+}
+
+
+
+}
+
+.droite{
+
+  display:grid;
+
+}
+
+.orange{
+    display: grid;
+    grid-row: 1;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100% 100%;
+   grid-column-gap:278px;
+    grid-row-gap: 400px;
+    background-color: orange;
+    margin-bottom: 3px;
+     grid-column: 2 /span 3;
+    
+
+}
+
+.grey{
+	display: grid;
+    grid-row: 2;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 90% 90%;
+   grid-column-gap:100px;
+    grid-row-gap: 150px;
+    background-color: grey;
+    
+    
+}

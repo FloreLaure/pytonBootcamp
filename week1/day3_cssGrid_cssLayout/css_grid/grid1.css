@@ -1,0 +1,158 @@
+
+* {
+  box-sizing:border-box;
+}
+
+.heade{
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  display:grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 50% 50%;
+   grid-column-gap:10px;
+  grid-row-gap: 40px;
+
+}
+
+
+.div0{
+	 padding-top: 20px;
+	 padding-bottom: 20px;
+	 padding-left: 10px;
+	 padding-right: 30px;
+
+  border: 3px solid black;
+  display:grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1f;
+   grid-column-gap:10px;
+  grid-row-gap: 15px;
+
+}
+
+.rouge{
+
+	display: grid;
+	
+	 grid-row: 1;
+
+}
+
+.rouge1{
+	display: grid;
+	grid-row: 1;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 90% 90%;
+   grid-column-gap:10px;
+	grid-row-gap: 150px;
+	border: 3px solid black;
+	background-color: red;
+	margin-bottom: 20px;
+
+
+}
+
+
+.rouge2{
+	display: grid;
+	grid-row: 2;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 90% 90%;
+   grid-column-gap:10px;
+	grid-row-gap: 150px;
+	border: 3px solid black;
+	background-color: red;
+	margin-bottom: 20px;
+
+
+}
+
+.rouge3{
+	display: grid;
+	grid-row: 3;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 90% 90%;
+   grid-column-gap:10px;
+	grid-row-gap: 150px;
+	border: 3px solid black;
+	background-color: red;
+
+
+}
+
+.jaune0{
+	display: grid;
+	 grid-column: 1 / span 3;
+	 margin-top: 15px;
+
+
+}
+
+.jaune{
+	display:grid;
+	grid-row: 4;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100% 100%;
+   grid-column-gap:100px;
+  grid-row-gap: 100px;
+  border: 3px solid black;
+	background-color: pink;
+
+
+}
+
+.bleu{
+
+	display: grid;
+	
+	 grid-column: 2 /span 3;
+	 margin-left: 25px;
+	 margin-right: 9px;
+
+}
+
+.bleu1{
+	display:grid;
+	grid-row: 1;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100% 100%;
+   grid-column-gap:100px;
+  grid-row-gap: 100px;
+  border: 3px solid black;
+	background-color: blue;
+	margin-bottom: 20px;
+
+
+}
+
+
+
+.bleu2{
+	display:grid;
+	grid-row: 2;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100% 100%;
+   grid-column-gap:100px;
+  grid-row-gap: 100px;
+  border: 3px solid black;
+	background-color: blue;
+	margin-bottom: 20px;
+
+
+}
+
+
+
+.bleu3{
+	display:grid;
+	grid-row: 3;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100% 100%;
+   grid-column-gap:100px;
+  grid-row-gap: 100px;
+  border: 3px solid black;
+	background-color: blue;
+
+
+}
