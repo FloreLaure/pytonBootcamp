@@ -1,0 +1,83 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+  /* header section*/
+.header {
+    display: flex;
+    height: 60px;
+   
+  }
+  h2{
+    margin-top: 15px;
+  }
+  h3{
+    margin-left: 50%;
+  }
+
+.senses{
+    margin-left: 60px;
+}
+ul{
+    margin-left: 35px;
+}
+
+ hr {
+    height: 3px;
+    background-color: #e5e5e5;
+    border: none;
+  }
+
+
+table,tr {
+  border: 5px solid #e5e5e5;
+  border-collapse: collapse;
+  width: 95%;
+  height: 20px;
+}
+table{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+table,th{
+    border: 5px solid #e5e5e5;
+  border-collapse: collapse;
+}
+table,td{
+    border: 5px solid #e5e5e5;
+  border-collapse: collapse;
+}
+.rouge{
+    margin-left: 35px;
+    margin-bottom: 15px;
+    margin-right: 35px;
+    border: 5px solid red;
+    text-align: center;
+}
+
+
+.imgs{
+    border: 5px solid red;
+    height: 500px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+.lion{
+     height: 500px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
