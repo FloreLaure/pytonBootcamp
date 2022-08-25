@@ -1,0 +1,40 @@
+.div0{
+	width: 740px;
+	margin: auto;
+	height: 300px;
+	display: flex;
+	border-bottom: 3px solid black;
+	margin-top: 200px;
+	border-top: 1px solid black;
+
+}
+
+.div1{
+	display: flex;
+	flex-direction: column;
+	margin-right: 80px;
+}
+.div4{
+	display: flex;
+	flex-direction: column;
+	margin-left: 80px;
+}
+
+
+.div2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 100px;
+	padding: 10px;
+}
+
+
+.div3{
+	width: 70px;
+	height: 70px;
+	background-color: yellow;
+	margin: 10px;
+	border: 1px solid black;
+
+}
