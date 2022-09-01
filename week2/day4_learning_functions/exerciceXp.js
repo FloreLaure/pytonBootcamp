@@ -66,7 +66,7 @@ isDivisible();
 //exercice4
 
 
-let stock = { 
+var stock = { 
     "banana": 6, 
     "apple": 0,
     "pear": 12,
@@ -74,7 +74,7 @@ let stock = {
     "blueberry":1
 }  
 
-let prices = {    
+var prices = {    
     "banana": 4, 
     "apple": 2, 
     "pear": 1,
@@ -82,7 +82,14 @@ let prices = {
     "blueberry":10
 } 
 
-let shoppingList["banana","orange","apple"];
-function myBill(){
+var shoppingList=["banana", "orange", "apple"]; 
 
-}
+function myBill(){
+	for (var i in shoppingList) {
+
+		if (shoppingList[i] in stock) {
+			console.log(shoppingList[i]);
+		}
+	}
+
+myBill();
