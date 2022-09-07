@@ -73,7 +73,7 @@ else:
 ## exercice9
 
 pouce=int(input("Entrer votre taille en pouce\n"))
-if taille>145/2.54:
+if taille > 145/2.54:
 	print("vous pouvez rouler")
 else:
 	print("vous devez grandir encore")
