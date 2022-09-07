@@ -21,3 +21,5 @@ if((code.length == 5)&&(code1 != NaN))
 	console.log("success");
 }
 else {console.log("error");}
+
+
