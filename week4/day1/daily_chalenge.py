@@ -1,4 +1,4 @@
-chaine = str(input("Entez une chaine de 10 caracteres"))
+chaine =input("Entez une chaine de 10 caracteres")
 if len(chaine)<10:
 	print("chaine pas assez long")
 if len(chaine)>10:
