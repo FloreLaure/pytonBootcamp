@@ -95,6 +95,7 @@ finished_sandwiches = []
 for sandwich in sandwich_orders:
 	finished_sandwiches.append(sandwich)
 	print("I made your ",sandwich)
+	finished_sandwiches.remove(sandwich)
 
 
 

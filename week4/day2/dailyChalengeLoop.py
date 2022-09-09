@@ -13,6 +13,7 @@ print(lis)
 ##  chalenge2
 
 chaine=input("entrez une chaine de caratere")
-taille=chaine.length()
-for x in chaine:
-	if x==
+for i in range(len(chaine) - 1):
+    if chaine[i + 1] == chaine[i] + 1:
+        chaine.remove(chaine[i+1])
+print(chaine)
