@@ -37,7 +37,8 @@ print("The greatest number is:",max(numb.split(" ")))
 
 ##  exercice5
 
-alphabet=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+import string
+alphabet=list(string.ascii_lowercase)
 voyelle=["a","e","i","o","u","y"]
 for x in alphabet:
 	if x in voyelle:
@@ -58,3 +59,25 @@ for i in mots:
 		print(i.index(lettre))
 	else:
 		print(lettre," n'est pas dans ",i)
+
+
+		##  exercice7
+num=[]
+for i in range(1,1000001):
+	num.append(i)
+print(min(num))
+print(max(num))
+print("la somme est ",sum(num))
+
+
+##  exercice8
+
+sequence=input("Entrez des nombres separer par des virgules")
+print(sequence.split(","))
+print(tuple(sequence.split(",")))
+
+
+
+##  exercice9
+
+
