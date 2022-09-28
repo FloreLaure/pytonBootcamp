@@ -30,3 +30,80 @@ print("le total est ",tolal)
 
 
 ##  xercice3
+
+brand = {
+    "name": "Zara" 
+    "creation_date": 1975 
+    "creator_name": ["Amancio", "Ortega", "Gaona" ]
+    "type_of_clothes": ["men", "women", "children", "home"] 
+    "international_competitors": ["Gap", "H&M", "Benetton" ]
+    "number_stores": 7000 
+    "major_color":{
+        "France": "blue" 
+        "Spain": "red" 
+        "US": ["pink", "green"]
+        }
+        
+}
+brand.update({"number_stores": 2})
+brand.append("country_creation":Spain)
+
+print(brand)
+
+
+
+
+
+
+
+
+
+
+
+##  exercice4
+
+users = ["Mickey","Minnie","Donald","Ariel","Pluto"]
+for item in enumerate(users):
+    print(list(item))
+
+
+
+
+
+
+
+
+def calculation(a, b):
+    print(a+b , a-b)
+
+res = calculation(40, 10)
+
+
+
+
+
+def lenss(s):
+    return len(s) <= 4
+
+def hello(Hello):
+    print("hello " +Hello)
+    return Hello
+
+people = ["Rick", "Morty", "Beth", "Jerry", "Snowball"]
+taille=filter(lenss, people)
+liste=list(taille)
+
+
+print(liste)
+
+tail=map(hello,liste)
+
+print(list(tail))
+
+
+
+
+import pandas as pd
+
+pd.read_excel(chemin du fichier)
+
