@@ -1,7 +1,7 @@
 .div1{
 	margin: auto;
 	width: 60%;
-	border: 4px solid red;
+	border: 4px solid blue;
 	height:900px;
 }
 .droite{
@@ -9,76 +9,99 @@
 	border: 2px solid red;
 	height:888px;
 	width: 35%;
-	background-color: #D1D1D1;
+	background-color: #C1C1C1;
 }
 
 .image{
 	border-radius: 50%;
-	width: 60%;
-	border: 3px solid #C1C1C1;
+	width: 65%;
+	border: 3px solid blue;
 	margin: auto;
-	margin-top: 35%;
+	margin-top: 10%;
 	height: 25%;
 	background-color: white;
+
 }
 .div2{
 	margin: 4px;
 	border: 2px solid red;
-	height:888px;
+	height:890px;
 	width: 63%;
 	margin-left: 36.2%;
-	margin-top: -94.3%;
+	margin-top: -94.4%;
 
 }
 
 .div3{
-	border: 3px solid #D1D1D1;
+	border: 3px solid blue;
 	height: 18%;
 	width: 98%;
-	margin-top: 20px;
+	margin-top: 5px;
 	margin-left: 2px;
+		background-color: #E8EAE8;
+
 }
 
 
 .div4{
-	border: 3px solid #D1D1D1;
+	border: 3px solid blue;
 	height: 35%;
 	width: 98%;
 	margin-top: 10px;
 	margin-left: 2px;
+		background-color: #E8EAE8;
+
 }
 
 
 .div5{
-	border: 3px solid #D1D1D1;
+	border: 3px solid blue;
 	height: 20.5%;
 	width: 98%;
-	margin-top: 10px;
+	margin-top: 5px;
 	margin-left: 2px;
+		margin-bottom: 2px;
+			background-color: #FFFFF0;
+
+
 }
 
 
 .div6{
-	border: 3px solid #D1D1D1;
-	height: 18%;
-	width: 98%;
-	margin-top: 10px;
-	margin-left: 2px;
+	border: 3px solid blue;
+	height: 19%;
+	width: 61.5%;
+	margin-top: -20%;
+	margin-right: 10px;
+	float: right;
+		background-color: #E8EAE8;
+
 }
 
 .div7{
-	border: 3px solid #D1D1D1;
-	height: 80%;
-	width: 45%;
-	margin-top: 26px;
+	border: 3px solid blue;
+	height: 72%;
+	width: 45.5%;
+	margin-top: -4%;
 	margin-left: 5px;
+		background-color: #E8EAE8;
+
 }
 
 .div8{
-	border: 3px solid #D1D1D1;
-	height: 80%;
-	width: 45%;
-	margin-top: -26%;
+	border: 3px solid blue;
+	height: 72%;
+	width: 45.5%;
+	margin-top: -24%;
 	margin-right: 5px;
 	float: right;
+		background-color: #E8EAE8;
+
 }
+
+.text{
+	text-align: center;
+	width: 95%;
+}
+
+
