@@ -16,14 +16,14 @@ print(dictionnaire)
 
 family = {"rick": 43, 'beth': 13, 'morty': 5, 'summer': 8}
 tolal=0
-for x, y in family.items():
-    if 0<=y<3:
-        print("c'est gratuit pour ",x)
-    elif 3<=y<=10:
-        print("le billet est de 10$ pour ",x)
+for name, age in family.items():
+    if 0<=age<3:
+        print("c'est gratuit pour ",name)
+    elif 3<=age<=10:
+        print("le billet est de 10$ pour ",name)
         total=tolal+10
     else:
-        print("le billet est de 15$ pour ",x)
+        print("le billet est de 15$ pour ",name)
         total=tolal+15
 
 print("le total est ",tolal)
