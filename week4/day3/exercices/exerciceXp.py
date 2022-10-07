@@ -53,15 +53,15 @@ brand = {
 
 brand.update({"number_stores": 2})  ## Change the number of stores to 2.
 
-print("les clients de Zara sont: ",brand['creator_name'])  ## Print a sentence that explains who Zaras clients are.
+print("les clients de Zara sont: ",brand['type_of_clothes'])  ## Print a sentence that explains who Zaras clients are.
 
 
 brand['country_creation']='Spain' ##  Add a key called country_creation with a value of Spain.
 
 
 ##    Check if the key international_competitors is in the dictionary. If it is, add the store Desigual.
-key='international_competitors'
-if (key in brand):
+
+if brand["international_competitors"]:
     brand["international_competitors"].append("Desigual")
 
 
@@ -107,10 +107,18 @@ print(brand["number_stores"]) ###  Print the value of the key number_stores
 ##  exercice4
 
 users = ["Mickey","Minnie","Donald","Ariel","Pluto"]
-for item in enumerate(users):
-    print(zip(item))
+disney_users_A={users[i]: i for i in range(len(users))}
+print(disney_users_A)
+
+disney_users_B={i: users[i] for i in range(len(users))}
+print(disney_users_B)
 
 
+disney_users_C={users[i]:i for i in range(len(sorted(users,reverse=False)))}
+print(disney_users_C)
 
+disney_users_D={users[i]: i for i in range(len(users)) if "i" in users[i]}
+print(disney_users_D)
 
-
+disney_users_E={users[i]: i for i in range(len(users)) if users[i][2]=="m" or users[i][0]=="p"}
+print(disney_users_E)
