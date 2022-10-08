@@ -1,22 +1,32 @@
+#Defis du jour : Résolution de la matrice
+Matrix = [
+    ["7","i","3"],
+    ["T","s","i"],
+    ["h","%","x"],
+    ["i"," ", "#"],
+    ["s","M"," "],
+    ["$","a"," "],
+    ["#","t","%"],
+    ["^","r","!"]
+]
 
-import re
-part = re.compile(r"(^[0-9]$)")
-matrix = [["7i3"],["Tsi"],["h%x"],["i #"],["sM "],["$a "],["#t%"],["^r!"]]
-message = ""
-for i in range(0,3) :
-    for x in matrix :
-        if x[0][i] != " " and part.search(x[0][i]) == None:
-            message += x[0][i]
-
-secret = ""
-part2 = re.compile(r"(^[a-zA-Z]$)")
-esp =0
-for x in message :
-    if part2.search(x) != None :
-        secret += x
-        esp=0
-    elif esp != 1 :
-        secret += " "
-        esp=1
-
-print(secret)
+def read(liste,index,*args):
+    return liste[index]
+phrase=[]
+top = 0
+while top < (len(Matrix[0])):
+    compteur=0
+    for line in Matrix :
+        char = read(line,top)
+        if char.isalpha() and char !=" ":
+            phrase.append(char)
+            compteur=0
+        elif compteur==0:
+            compteur+=1
+            phrase.append("")
+        elif compteur==1:
+            phrase.append(" ")
+            compteur+=1
+    top +=1
+print("".join(phrase))
+#Défis terminé avec succès

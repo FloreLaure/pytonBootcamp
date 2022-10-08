@@ -1,15 +1,17 @@
 .div1{
 	margin: auto;
-	width: 60%;
-	border: 4px solid blue;
-	height:900px;
+	width: 95%;
+	height:80%px;
+	display:flex;
+	padding: 5%;
+	align-content: center;
 }
 .droite{
 	margin: 4px;
-	border: 2px solid red;
-	height:888px;
-	width: 35%;
+	height:100%;
+	width: 48%;
 	background-color: #C1C1C1;
+padding: 5%;
 }
 
 .image{
@@ -26,7 +28,7 @@ hr{
 img{
 	 object-fit: cover;
     border-radius: 50%;
-    	border: 3px solid blue;
+    	
 margin: auto;
 	margin-top: 5%;
 height: 20%;
@@ -34,78 +36,75 @@ height: 20%;
 
 }
 .div2{
-	margin: 4px;
-	border: 2px solid red;
-	height:890px;
-	width: 63%;
-	margin-left: 36.2%;
-	margin-top: -94.4%;
+	
+	height:90%;
+	width: 150%;
+	padding: 5px;
+
 
 }
 
 .div3{
-	border: 3px solid blue;
-	height: 18%;
-	width: 98%;
-	margin-top: 5px;
-	margin-left: 2px;
-		background-color: #E8EAE8;
-
+	
+	height: 25%;
+	width: 90%;
+	background-color: #E8EAE8;
+	padding: 5%;
+	margin-bottom: 5px;
 }
 
 
-.div4{
-	border: 3px solid blue;
-	height: 35%;
-	width: 98%;
-	margin-top: 10px;
-	margin-left: 2px;
-		background-color: #E8EAE8;
 
+.div4{
+	
+	height: 35%;
+	width: 90%;
+	background-color: #E8EAE8;
+padding: 5%;
 }
 
 
 .div5{
-	border: 3px solid blue;
-	height: 20.5%;
-	width: 98%;
-	margin-top: 5px;
-	margin-left: 2px;
-		margin-bottom: 2px;
-			background-color: #FFFFF0;
+	
+	height: 20%;
+	width: 90%;
+padding: 2%;
+	background-color: #FFFFF0;
 
 
 }
 
 
 .div6{
-	border: 3px solid blue;
-	height: 19%;
-	width: 61.5%;
-	margin-top: -20%;
-	margin-right: 10px;
-	float: right;
-		background-color: #E8EAE8;
+	
+	height: 40%;
+	width:90%;
+	background-color: #E8EAE8;
+	padding: 5%;
+	float: left;
+	
+	
 
 }
 
 .div7{
-	border: 3px solid blue;
-	height: 72%;
-	width: 45.5%;
-	margin-top: -4%;
-	margin-left: 5px;
+	margin-bottom: 4px;
+	width: 53%;
+	height: 26%;
+	float: left;
+	margin-left: -2%;
+	padding: 5px;
 		background-color: #E8EAE8;
 
 }
 
 .div8{
-	border: 3px solid blue;
-	height: 72%;
-	width: 45.5%;
-	margin-top: -24%;
-	margin-right: 5px;
+	margin-bottom: 4px;
+	width: 53%;
+	height: 26%;
+	margin-right: -8.5%;
 	float: right;
+	padding: 5px;
 		background-color: #E8EAE8;
 
 }
@@ -113,6 +112,9 @@ height: 20%;
 .text{
 	text-align: center;
 	width: 95%;
+	font-size: 20px;
 }
 
-
+.div2 div{
+	font-size: 20px;
+}
