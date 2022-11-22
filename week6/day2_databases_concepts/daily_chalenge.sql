@@ -26,8 +26,6 @@ SELECT * FROM SecondTab
 
 
 
-
-
 # 1 
  SELECT COUNT(*) 
     FROM FirstTab AS ft WHERE ft.id NOT IN ( SELECT id FROM SecondTab WHERE id IS NULL );
