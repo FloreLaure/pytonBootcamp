@@ -7,7 +7,6 @@ PASSWORD = '   '
 DATABASE = 'postgres'
 
 def country_api():
-    # request =requests.get('https://restcountries.com/v3.1/region/africa')
     request =requests.get('https://restcountries.com/v2/all')
     request=request.json()
     return request
