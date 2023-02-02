@@ -1,0 +1,543 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Realtor",
+        "importPath": "realtors.models",
+        "description": "realtors.models",
+        "isExtraImport": true,
+        "detail": "realtors.models",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "btre.asgi",
+        "description": "btre.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "btre.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-g(apd&yf03!54b$sf(zsv1co9+=ci!r!hm7pcqg*5ld1o9=x6i'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-g(apd&yf03!54b$sf(zsv1co9+=ci!r!hm7pcqg*5ld1o9=x6i'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'pages',",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'pages',\n    'listings',\n    'realtors',",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'btre.urls'",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "ROOT_URLCONF = 'btre.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, '/templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, '/templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'btre.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'base6',\n        'USER': 'postgres',\n        'PASSWORD': 'adrie',\n        'HOST': '127.0.0.1',",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'base6',\n        'USER': 'postgres',\n        'PASSWORD': 'adrie',\n        'HOST': '127.0.0.1',\n        'PORT': '5432',\n    }\n}",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATIC_URL = 'static/'\nSTATICFILES_DIRES = [\n    os.path.join(BASE_DIR, 'btre/static')",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATIC_URL = 'static/'\nSTATICFILES_DIRES = [\n    os.path.join(BASE_DIR, 'btre/static')\n]",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATIC_URL = 'static/'\nSTATICFILES_DIRES = [\n    os.path.join(BASE_DIR, 'btre/static')\n]\n# Default primary key field type",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATIC_URL = 'static/'\nSTATICFILES_DIRES = [\n    os.path.join(BASE_DIR, 'btre/static')\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATIC_URL = 'static/'\nSTATICFILES_DIRES = [\n    os.path.join(BASE_DIR, 'btre/static')\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRES = [\n    os.path.join(BASE_DIR, 'btre/static')\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRES",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "STATICFILES_DIRES = [\n    os.path.join(BASE_DIR, 'btre/static')\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "btre.settings",
+        "description": "btre.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "btre.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "btre.urls",
+        "description": "btre.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include(\"pages.urls\")),\n    path('listings/', include(\"listings.urls\")),\n]",
+        "detail": "btre.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "btre.wsgi",
+        "description": "btre.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "btre.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "ListingsConfig",
+        "kind": 6,
+        "importPath": "listings.apps",
+        "description": "listings.apps",
+        "peekOfCode": "class ListingsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'listings'",
+        "detail": "listings.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Listing",
+        "kind": 6,
+        "importPath": "listings.models",
+        "description": "listings.models",
+        "peekOfCode": "class Listing(models.Model):\n    realtor = models.ForeignKey(Realtor, on_delete=models.DO_NOTHING)\n    title = models.CharField(max_length=200)\n    address = models.CharField(max_length=200)\n    city = models.CharField(max_length=200)\n    state = models.CharField(max_length=200)\n    zipcode = models.CharField(max_length=200)\n    description = models.TextField(blank=True)\n    price = models.IntegerField()\n    bedrooms = models.IntegerField()",
+        "detail": "listings.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "listings.urls",
+        "description": "listings.urls",
+        "peekOfCode": "urlpatterns = [\n  path('', views.index, name='listings'),\n  path('<int:listing_id>/listing', views.listing, name='listing'),\n  path('search', views.search, name='search')\n ]",
+        "detail": "listings.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "listings.views",
+        "description": "listings.views",
+        "peekOfCode": "def index(request):\n    return render(request, 'listings/listings.html')\ndef listing(request):\n    return render(request, 'listings/listing.html')\ndef search(request):\n    return render(request, 'listings/search.html')",
+        "detail": "listings.views",
+        "documentation": {}
+    },
+    {
+        "label": "listing",
+        "kind": 2,
+        "importPath": "listings.views",
+        "description": "listings.views",
+        "peekOfCode": "def listing(request):\n    return render(request, 'listings/listing.html')\ndef search(request):\n    return render(request, 'listings/search.html')",
+        "detail": "listings.views",
+        "documentation": {}
+    },
+    {
+        "label": "search",
+        "kind": 2,
+        "importPath": "listings.views",
+        "description": "listings.views",
+        "peekOfCode": "def search(request):\n    return render(request, 'listings/search.html')",
+        "detail": "listings.views",
+        "documentation": {}
+    },
+    {
+        "label": "PagesConfig",
+        "kind": 6,
+        "importPath": "pages.apps",
+        "description": "pages.apps",
+        "peekOfCode": "class PagesConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'pages'",
+        "detail": "pages.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "pages.urls",
+        "description": "pages.urls",
+        "peekOfCode": "urlpatterns = [\n  path('', views.index, name='index'),\n  path('about/', views.about, name='about')\n ]",
+        "detail": "pages.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "pages.views",
+        "description": "pages.views",
+        "peekOfCode": "def index(request):\n    return render(request, \"pages/index.html\")\ndef about(request):\n    return render(request, \"pages/about.html\")",
+        "detail": "pages.views",
+        "documentation": {}
+    },
+    {
+        "label": "about",
+        "kind": 2,
+        "importPath": "pages.views",
+        "description": "pages.views",
+        "peekOfCode": "def about(request):\n    return render(request, \"pages/about.html\")",
+        "detail": "pages.views",
+        "documentation": {}
+    },
+    {
+        "label": "RealtorsConfig",
+        "kind": 6,
+        "importPath": "realtors.apps",
+        "description": "realtors.apps",
+        "peekOfCode": "class RealtorsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'realtors'",
+        "detail": "realtors.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Realtor",
+        "kind": 6,
+        "importPath": "realtors.models",
+        "description": "realtors.models",
+        "peekOfCode": "class Realtor(models.Model):\n    name = models.CharField(max_length=200)\n    photo = models.ImageField(upload_to='photo/%Y/%m/%d/', blank=True)\n    description = models.TextField(blank=True)\n    phone = models.CharField(max_length=20)\n    email = models.CharField(max_length=20)\n    is_mvp = models.BooleanField(default=False)\n    hire_date = models.DateTimeField(default=datetime.now, blank=True)\n    def str(self):\n        return self.name",
+        "detail": "realtors.models",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'btre.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

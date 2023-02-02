@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' /home/feuble/Documents/Projet_Academique/formation_orange/DI-Bootcamp-Stage1/Full_stack_coding_Bootcamp-Python_full_time/WEEK_10-Django_Projet/Day-1/Mini-Project_Real_state/env/bin/python "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
