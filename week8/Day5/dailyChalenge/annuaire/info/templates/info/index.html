@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ANNUAIRES</title>
+    </head>
+    <body>
+    <div class="row">
+        <form method="post">
+        {% csrf_token %}
+        {% for field in form %}
+        <div class="form-group">
+            <label for="{{field.id_for_label}}">{{field.label}}</label>
+
+            <input type="{{field.field.widget.input_type}}" 
+                 class="form-control" id="{{field.auto_id}}" 
+                 name="{{field.name}}"
+                 {% if field.field.required %} required {% endif %} 
+                 minlength="{{ field.field.min_length }}"
+                 placeholder="{{ field.field.widget.attrs.placeholder }}">
+
+        </div>
+
+      {% endfor %}
+      
+        <input {% if btnFormHidden %} type="hidden" {% else %} type="submit" {% endif %}
+        class="btn btn-primary" value="Rechercher" >
+    </form>
+</div>
+        <h1>ANNUAIRE</h1>
+
+        <ul>    
+            {% for person in persons %}
+                
+                    <li>id: {{person.id}}</li>
+                    <li>name: {{person.name}}</li>
+                    <li>phonenumber: {{person.phonenumber.as_national}}</li>
+                <br>
+            {% endfor %}
+        </ul>
+
+    </body>
+</html>

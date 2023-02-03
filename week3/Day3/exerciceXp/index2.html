@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Day 3 - XP Exercise 2</title>
+    <style>
+        #container {
+            border: solid 1px black;
+            height: 500px;
+            width:500px;
+        }
+
+        .dragBox{
+            background-color: #BD6B73;
+            height: 100px;
+            width: 100px;
+        }
+        #one{
+            background-color: #BD6B73;
+            width: 100px;
+
+        }
+        #two{
+            background-color: #A30B37;
+            width: 200px;
+
+
+        }
+
+        #dropBox{
+            background-color: #BBB6DF;
+            height: 250px;
+            width: 500px;
+        }
+
+    </style>
+</head>
+<body>    
+    <div id="container"> 
+        <div class="dragBox" id="one" draggable="true" ondragstart="dragStart(event)">Box 1</div>
+        <div class="dragBox" id="two" draggable="true" ondragstart="dragStart(event)">Box 2</div>
+        <div id="dropBox" ondrop="dragDrop(event)" ondragover="allowDrop(event)" ondragenter="allowEnter(event)" ondragleave="allowLeave(event)">Box 3</div>
+    </div>
+    <script>
+
+        function allowDrop(event){
+            event.preventDefault()
+        }
+
+        function allowEnter(event){
+            event.preventDefault()
+        }
+
+        function allowLeave(event){
+            event.target.classList.remove('over')
+        }
+
+        function dragStart(event){ 
+            console.log('target', event.target)
+            console.log('id: ', event.target.id)
+            event.dataTransfer.setData('text', event.target.id);
+        }
+
+        function dragDrop(event){
+            event.preventDefault();
+        
+
+        let data = event.dataTransfer.getData('text');
+        console.log('data: ', data)
+
+        let box = document.getElementById(data)
+        event.target.appendChild(box);
+        }
+
+        
+
+    </script>
+    
+</body>
+</html>

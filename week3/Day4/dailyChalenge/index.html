@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html leng="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>TO-DO LIST</title>
+        <style type="text/css">
+            body{
+                background: linear-gradient(to right, rgb(255, 0, 38), rgb(255, 97, 97));
+            }
+            section{
+                margin: auto;
+                margin-top: 10vh;
+                height: 70vh;
+                width: 100vh;
+                border: 2px solid black;
+                text-align: center;
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <h3>TO-DO LIST</h3>
+            <form>
+                <label for="text"></label>
+                <input type="text" name="text" id="text" >
+                <input type="submit" id="add" name="add"  value="ADD">
+            </form>
+            <div class="listTasks">
+            </div>
+            
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>

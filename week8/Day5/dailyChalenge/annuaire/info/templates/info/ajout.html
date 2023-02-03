@@ -1,0 +1,71 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+        {{ page_title|default:"ANNUAIRE" }}
+        {% endblock title %}
+    </title>
+    <link href="" rel="stylesheet" type="text/css">
+
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+            {% block content %}
+            <div class="row">
+                <h2>Welcome</h2> 
+            </div>
+            {% endblock content %}
+
+    <div class="row">
+        <form method="post">
+         {% csrf_token %}
+
+         {% for field in form %}
+            <div class="form-group">
+                <label for="{{field.id_for_label}}">{{field.label}}</label>
+
+                <!-- if the field is the comment : then the input is a textarea-->
+                {% if field.name == 'comment' %}
+                    <textarea class="form-control" id="{{field.auto_id}}" 
+                    rows="3"  name="{{field.name}}"
+                    {% if field.field.required %} required {% endif %}
+                    placeholder="{{ field.field.widget.attrs.placeholder }}"></textarea>
+
+                {% else %}
+                    <input type="{{field.field.widget.input_type}}" 
+                     class="form-control" id="{{field.auto_id}}" 
+                     name="{{field.name}}"
+                     {% if field.field.required %} required {% endif %} 
+                     minlength="{{ field.field.min_length }}"
+                     placeholder="{{ field.field.widget.attrs.placeholder }}">
+                {% endif %}
+
+    <!-- Help text in field -->
+                {% if field.help_text %}
+                  <small class="form-text text-muted">{{ field.help_text }}</small>
+                {% endif %}
+
+
+    <!-- Errors in fields -->
+                {% if field.errors %}
+                    {% for error in field.errors %}
+                       <div class="mt-2">
+                         <p class="alert alert-danger">{{error}}</p>
+                       </div>
+                    {% endfor %}
+                {% endif %}
+
+            </div>
+
+          {% endfor %}
+            <input {% if btnFormHidden %} type="hidden" {% else %} type="submit" {% endif %}
+            class="btn btn-primary" value="Submit" >
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

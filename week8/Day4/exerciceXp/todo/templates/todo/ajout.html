@@ -1,0 +1,14 @@
+{% extends './affiche.html' %}
+	        {% block content %}
+	        <section style="color: black;">
+	            <h3>TO-DO LIST</h3>
+	            <form method="POST">
+	                {% csrf_token %}
+	                  {{forms.as_p}}
+	                <input type="submit" id="add" name="add"  value="ADD">
+	            </form>
+	            <div class="listTasks">
+	            </div>
+	            
+	        </section>
+	    	{% endblock %}

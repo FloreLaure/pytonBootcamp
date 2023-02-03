@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Famille</title>
+    </head>
+    <body>
+       <h1>{{animals.0.family.last_name}}</h1>
+        <ul>
+            {% for animal in animals %}
+                <li>legs : {{ animal.legs }}</li>
+                <li>weight : {{ animal.weight }}</li>
+                <li>height : {{ animal.height }}</li>
+                <li>speed : {{ animal.speed }}</li>
+                <br>
+            {% endfor %}
+        </ul>
+ 
+
+    </body>
+</html>

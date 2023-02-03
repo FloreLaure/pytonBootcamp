@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Day 2 XP - Volume of Sphere</title>
+    <style>
+        body{padding-top:30px;} 
+        label,input{display:block;}
+    </style>
+</head>
+<body>
+    <p>Input radius value and get the volume of a sphere.</p> 
+        <form  id="MyForm"> 
+            <label for="radius">Radius</label><input type="text" name="radius" id="radius" required> 
+            <label for="volume">Volume</label><input type="text" name="volume" id="volume"> 
+            <input type="submit" value="Calculate" id="submit">    
+        </form> 
+
+    <script>
+            
+    let buttonForm = document.getElementById("submit")
+    buttonForm.addEventListener("click", volumeSphere)
+    function volumeSphere(event){
+        event.preventDefault()
+        let radiusValue = document.getElementById("radius").value;
+        let formula = (4/3) * Math.PI * Math.pow(radiusValue, 3);
+        let volumeResult = document.getElementById("volume")
+        volumeResult.value = formula
+    }
+    </script>
+</body>
+</html>

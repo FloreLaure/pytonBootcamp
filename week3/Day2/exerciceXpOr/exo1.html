@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Day 2 - Gold Exercise 1</title>
+</head>
+<body>
+    <select id="genres">
+        <option value="rock">Rock</option>
+        <option value="blues" selected>Blues</option>
+    </select>
+
+    <script>
+        let genres = document.getElementById('genres');
+        console.log(genres.value);
+        let valuesOf = genres.children;
+        for (let i = 0; i < valuesOf.length; i++){
+            if (valuesOf[i].value == genres.value){
+                console.log(valuesOf[i].textContent);
+            }
+        }
+        let classic = document.createElement('option');
+        classic.value = 'classic';
+        classic.textContent = 'Classic';
+        classic.setAttribute('selected', 'selected');
+        genres.appendChild(classic);
+   
+    </script>
+</body>
+</html>
